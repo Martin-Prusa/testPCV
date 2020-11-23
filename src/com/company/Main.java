@@ -9,6 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Zadej délku pole: ");
         int delkaPole = sc.nextInt();
+        System.out.println("Zadej hodnoty do pole:");
         int[] pole = new int[delkaPole];
         for (int i = 0; i < pole.length; i++) {
             pole[i] = sc.nextInt();
